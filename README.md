@@ -6,7 +6,7 @@
 @Mqtt(topics = "topic",qos = 2)
 public class Test extends AbstractConsumer<String> {
 
-  private Logger logger = LoggerUtils.logger(Test.class);
+  private Logger logger = LoggerFactory.getLogger(Test.class);
 
 
   @Override
